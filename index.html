@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Metadata-->
+        <title>GutFeeling | Home</title>
+        <link rel="icon" type="image/x-icon" href="media/logo-small.png">
+        <meta charset='UTF-8'>
+        <meta name='description' content='Food Intolerance Application'>
+        <meta name='keywords' content='Food Intolerance, Food recipe intolerance, Medication food intolerance, food allergens'>
+        <meta name='author' content='Aydin Gursoy, Ramya Balasubramaniam'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name='robots' content='noindex, nofollow'>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <header>
+            <nav id="nav">
+                <!--Logo-->
+                <a id="logo-container" href="index.html"><img src="media/logo-main.png" id="logo" alt="GutFeeling Logo" width="200"></a>
+                <!--Whole Nav Button container-->
+                <div id="nav-button-main-container">
+                    <!--Main Navigation Buttons-->
+                    <div id="nav-buttons-container">
+                        <ul>
+                            <li><a href="index.html">
+                                <span>Home</span>
+                            </a></li>
+                            <li><a href="#main-about-container">
+                                <span>About</span>
+                            </a></li>
+                            <li><a href="#main-features-container">
+                                <span>Features</span>
+                            </a></li>
+                            <li><a href="#main-check-recipe-container">
+                                <span>Check Recipe</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Main home page-->
+        <main>
+            <!--Welcome section-->
+            <section>
+                <div>
+                    <h1>Smart eating starts with GutFeeling.</h1>
+                    <h2>Allergy-aware. Medication-safe. Always intuitive.</h2>
+                </div>
+                <img src="media/logo-small.png" width="300">
+            </section>
+            <!--About section-->
+            <section id="main-about-container">
+                <h2>🌿 About GutFeeling</h2>
+                <p>
+                    At <b>GutFeeling</b>, our vision is to make food safer, smarter, and truly personal.<br><br>
+                    We understand how overwhelming it can be to manage food allergies, intolerances, or medications that interact with certain ingredients. That’s why we created GutFeeling — an intelligent food safety assistant that adapts to you.<br><br>
+                    Whether you’re cooking at home or shopping for ingredients, GutFeeling helps you understand exactly what’s in your food. Simply input or scan a recipe, and the app instantly highlights allergens, flags potential medication interactions, and offers safe, personalized alternatives — all in real time.<br><br>
+                    Our goal is to remove the guesswork from eating. With GutFeeling, you can adapt recipes with confidence, discover safer food options, and make informed decisions that support your health and lifestyle.
+                    Because when it comes to your body, it’s not just about what you eat — it’s about what’s <i>right</i> for you.
+                </p>
+            </section>
+            <!--Features section-->
+            <section id="main-features-container">
+                <h2>🔍 Features</h2>
+                <h3>🧠 Recipe Adaptation with AI</h3>
+                <p>
+                    Enter any recipe and let GutFeeling do the rest. The app automatically identifies ingredients that may trigger allergies or interact with your medications, then suggests safe, personalized alternatives — all while preserving the original flavor and intent of the dish.
+                </p>
+                <h3>⚠️ Allergen & Interaction Alerts</h3>
+                <p>
+                    See a full breakdown of potential allergens and food–medication conflicts in every recipe. GutFeeling makes it easy to understand what could be harmful, so you can make confident choices with zero guesswork.
+                </p>
+                <h3>📋 Personalized Profiles</h3>
+                <p>
+                    Set your unique dietary needs — from gluten intolerance or dairy sensitivity to specific medications — and let GutFeeling tailor every suggestion to your health.
+                </p>
+                <h3>📱 Coming Soon: Barcode Scanning</h3>
+                <p>
+                    Scan packaged food items to instantly reveal hidden allergens and potential medication conflicts. GutFeeling will also recommend safer alternatives on the spot — making grocery shopping easier than ever.
+                </p>
+            </section>
+            <!--Check recipe section-->
+            <section id="main-check-recipe-container">
+                <h2>🍽️ Check Your Recipe</h2>
+                <p>Paste your recipe below and we’ll scan it for allergens and medication conflicts.</p>
+
+                <div>
+                    <label for="allergens">Your Allergens or Intolerances:</label>
+                    <input type="text" id="allergens" placeholder="e.g. dairy, gluten, peanuts">
+                </div>
+
+                <div>
+                    <label for="medications">Medications You're Taking:</label>
+                    <input type="text" id="medications" placeholder="e.g. Warfarin, Atorvastatin">
+                </div>
+
+                <div>
+                    <label for="recipeInput">Paste Your Recipe:</label>
+                    <textarea id="recipeInput" placeholder="e.g. 2 cups of milk, 1 tbsp soy sauce..."></textarea>
+                    <div id="result">An updated recipe will be shown here after analysis.</div>
+                </div>
+
+                <div id="allergenSummary">
+                    <h3>⚠️ Potential Allergens & Conflicts</h3>
+                    <p id="allergenList">Allergen and interaction concerns will appear here after analysis.</p>
+                </div>
+
+                <button onclick="">Analyse Recipe</button>
+            </section>
+        </main>
+        <!--Footer-->
+        <footer>
+            <div id="footer-main-container">
+                <!--Social Links-->
+                <div id="footer-socials-container">
+                    <a href="https://www.facebook.com/"><img src="media/fb-logo.png" width="30"></a>
+                    <a href="https://www.instagram.com/"><img src="media/ig-logo.png" width="30"></a>
+                    <a href="https://reddit.com/"><img src="media/reddit-logo.png" width="30"></a>
+                </div>
+                <!--Copyright Text-->
+                <div id="footer-copyright-container">
+                    <p class="lang en">All Rights Reserved © 2025 <a href="https://www.linkedin.com/in/aydin-gursoy/">Aydin Gursoy</a> & <a href="https://www.linkedin.com/in/rbalasubramaniam97/">Ramya Balasubramaniam</a></p>
+                    <p>
+                        <span>Designed & Developed by <a href="https://github.com/aygurs">Aydin</a> and <a href="https://github.com/Solarez-rb">Ramya</a></span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="scripts/main.js"></script>
