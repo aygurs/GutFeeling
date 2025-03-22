@@ -13,3 +13,101 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+/*Nav bar*/
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#nav-buttons-container ul{
+    display: flex;
+    list-style: none;
+}
+#nav-buttons-container a{
+    text-decoration: none;
+}
+#nav-button-main-container li{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*Welcome section*/
+#welcome-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+#welcome-text{
+    margin-right: 5em;
+    max-width: 25em;
+    font-size: 1.5em;
+}
+.bottom-text{
+    font-weight: 300;
+}
+
+/*About section*/
+#main-about-container{
+    margin-bottom: 5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);
+    padding-bottom: 3em;
+}
+.section-title{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.section-text{
+    font-weight: 300;
+    font-size: 1.2em;
+    max-width: 80%;
+}
+
+/*Features section*/
+#main-features-container{
+    margin-bottom: 5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Check recipe section*/
+#main-check-recipe-container{
+    margin-bottom: 5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.2em;
+    background-color: var(--primary);
+    padding-bottom: 3em;
+}
+#result{
+    padding-top: 1em;
+}
+
+/*footer*/
+#footer-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}

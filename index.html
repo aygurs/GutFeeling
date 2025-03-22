@@ -43,17 +43,17 @@
         <!--Main home page-->
         <main>
             <!--Welcome section-->
-            <section>
-                <div>
-                    <h1>Smart eating starts with GutFeeling.</h1>
-                    <h2>Allergy-aware. Medication-safe. Always intuitive.</h2>
+            <section id="welcome-section">
+                <div id="welcome-text"> 
+                    <h1 class="top-text">Smart eating starts with GutFeeling.</h1>
+                    <h2 class="bottom-text">Allergy-aware. Medication-safe. Always intuitive.</h2>
                 </div>
                 <img src="media/logo-small.png" width="300">
             </section>
             <!--About section-->
             <section id="main-about-container">
-                <h2>🌿 About GutFeeling</h2>
-                <p>
+                <h2 class="section-title">🌿 About GutFeeling</h2>
+                <p class="section-text">
                     At <b>GutFeeling</b>, our vision is to make food safer, smarter, and truly personal.<br><br>
                     We understand how overwhelming it can be to manage food allergies, intolerances, or medications that interact with certain ingredients. That’s why we created GutFeeling — an intelligent food safety assistant that adapts to you.<br><br>
                     Whether you’re cooking at home or shopping for ingredients, GutFeeling helps you understand exactly what’s in your food. Simply input or scan a recipe, and the app instantly highlights allergens, flags potential medication interactions, and offers safe, personalized alternatives — all in real time.<br><br>
@@ -63,27 +63,27 @@
             </section>
             <!--Features section-->
             <section id="main-features-container">
-                <h2>🔍 Features</h2>
-                <h3>🧠 Recipe Adaptation with AI</h3>
-                <p>
+                <h2 class="section-title">🔍 Features</h2>
+                <h3 class="section-title2">🧠 Recipe Adaptation with AI</h3>
+                <p class="section-text">
                     Enter any recipe and let GutFeeling do the rest. The app automatically identifies ingredients that may trigger allergies or interact with your medications, then suggests safe, personalized alternatives — all while preserving the original flavor and intent of the dish.
                 </p>
-                <h3>⚠️ Allergen & Interaction Alerts</h3>
-                <p>
+                <h3 class="section-title2">⚠️ Allergen & Interaction Alerts</h3>
+                <p class="section-text">
                     See a full breakdown of potential allergens and food–medication conflicts in every recipe. GutFeeling makes it easy to understand what could be harmful, so you can make confident choices with zero guesswork.
                 </p>
-                <h3>📋 Personalized Profiles</h3>
-                <p>
+                <h3 class="section-title2">📋 Personalized Profiles</h3>
+                <p class="section-text">
                     Set your unique dietary needs — from gluten intolerance or dairy sensitivity to specific medications — and let GutFeeling tailor every suggestion to your health.
                 </p>
-                <h3>📱 Coming Soon: Barcode Scanning</h3>
-                <p>
+                <h3 class="section-title2">📱 Coming Soon: Barcode Scanning</h3>
+                <p class="section-text">
                     Scan packaged food items to instantly reveal hidden allergens and potential medication conflicts. GutFeeling will also recommend safer alternatives on the spot — making grocery shopping easier than ever.
                 </p>
             </section>
             <!--Check recipe section-->
             <section id="main-check-recipe-container">
-                <h2>🍽️ Check Your Recipe</h2>
+                <h2 class="section-title">🍽️ Check Your Recipe</h2>
                 <p>Paste your recipe below and we’ll scan it for allergens and medication conflicts.</p>
 
                 <div>
@@ -99,8 +99,8 @@
                 <div>
                     <label for="recipeInput">Paste Your Recipe:</label>
                     <textarea id="recipeInput" placeholder="e.g. 2 cups of milk, 1 tbsp soy sauce..."></textarea>
-                    <div id="result">An updated recipe will be shown here after analysis.</div>
                 </div>
+                <div id="result">An updated recipe will be shown here after analysis.</div>
 
                 <div id="allergenSummary">
                     <h3>⚠️ Potential Allergens & Conflicts</h3>
@@ -129,4 +129,4 @@
             </div>
         </footer>
     </body>
-    <script src="scripts/main.js"></script>
+    <script src="main.js"></script>
