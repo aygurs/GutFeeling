@@ -30,6 +30,7 @@
 }
 #nav-buttons-container a{
     text-decoration: none;
+    color: var(--secondary);
 }
 #nav-button-main-container li{
     padding-left: 1em;
