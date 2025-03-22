@@ -4,9 +4,9 @@
 /*Variables*/
 :root {
     /*Website Colour Scheme*/
-    --primary: rgb(250, 249, 246);
-    --secondary: rgb(3, 169, 244);
-    --tertiary: rgb(15, 29, 43);
+    --primary: rgb(254, 167, 175);
+    --secondary: rgb(254, 130, 132);
+    --tertiary: rgb(0, 0, 0);
 }
 
 /*Global Variables*/
